@@ -10,10 +10,10 @@ public class Interview1_1 {
         int i = 1;
         i = i++;
         int j = i++;
-        int k = i + i++ * ++i;
+        int k = i++ + i++ * ++i;
 
         System.out.println("i:" + i + "\nj:" + j + "\nk:" + k);
-        //答案：i:4 j:1 k:10
-        //如果改成：int k=i + i++ * ++i; 结果是多少
+        //答案：i:5 j:1 k:17
+        //如果改成：int k=i-- + i++ * ++i; 结果是多少
     }
 }

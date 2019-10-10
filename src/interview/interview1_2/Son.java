@@ -1,7 +1,5 @@
 package interview.interview1_2;
 
-import interview.interview1_2.Father;
-
 /**
  * @author jtl
  * @date 2019/10/8 16:38
